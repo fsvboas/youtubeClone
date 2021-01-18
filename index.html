@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./images/logos/youtubeFavicon.png" />
+
+  <title>YouTube</title>
+</head>
+
+<body>
+  <!--"HEADER"-->
+  <div class="searchBar">
+    <div class="logo">
+      <i><img class="headerIcons" src="./images/bodyIcons/menu.png" alt="Menu" /></i>
+      <img src="./images/logos/youtubeLogo.png" alt="Youtube Logo" />
+    </div>
+    <div class="search">
+      <form action="">
+        <input id="inputSearchBar" type="text" placeholder="Search" />
+        <button>
+          <img id="searchIcon" src="./images/bodyIcons/search.png" alt="Search button" />
+        </button>
+      </form>
+    </div>
+    <div id="headerIcons">
+      <i><img class="headerIconCreate" src="./images/bodyIcons/create.png" alt="Create Videos" /></i>
+      <i><img class="headerIcons" src="./images/bodyIcons/apps.png" alt="Apps" /></i>
+      <i><img class="headerIcons" src="./images/bodyIcons/notification.png" alt="Notications" /></i>
+      <i><img class="headerIconAccount" src="./images/bodyIcons/accountIcon.png" alt="Account Icon" /></i>
+    </div>
+  </div>
+  <!--"LEFT-MENU"-->
+  <div class="mainBody">
+    <div class="categories">
+      <div class="categoriesSection">
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/home.png" alt="Home icon" />
+          </i>
+          <span>Home</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img class="adjustIcon" src="images/bodyIcons/trending.png" alt="Trending icon" />
+          </i>
+          <span>Trending</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/subscriptions.png" alt="Subscriptions icon" />
+          </i>
+          <span>Subscriptions</span>
+        </span>
+      </div>
+
+      <div class="categoriesSection">
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/library.png" alt="Library icon" /></i>
+          <span>Library</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/history.png" alt="History icon" /></i>
+          <span>History</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/yourVideos.png" alt="Your Videos icon" /></i>
+          <span>Your Videos</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/watchLater.png" alt="Watch Later icon" />
+          </i>
+          <span>Watch Later</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/likedVideos.png" alt="Liked Videos" />
+          </i>
+          <span>Liked Videos</span>
+        </span>
+      </div>
+      <!-- SUBSCRIPTIONS  -->
+      <div class="categoriesSection">
+        <h3>Subscriptions</h3>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/psFans.jpg" alt="PSFans icon" />
+          <span class="subsChannel">PSFans</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/realFootball.jpg" alt="The Real Football icon" />
+          <span class="subsChannel">The Real Football</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/learningMusic.jpg" alt="Learning Music icon" />
+          <span class="subsChannel">Learning Music</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/techTips.jpg" alt="Tech Tips icon" />
+          <span class="subsChannel">Tech Tips</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/worldAnimals.jpg" alt="World Animals icon" />
+          <span class="subsChannel">World Animals</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/supercars.jpg" alt="Supercars icon" />
+          <span class="subsChannel">Supercars</span>
+        </span>
+        <span class="category">
+          <img class="icon" src="images/channelIcons/aroundtheworld.jpg" alt="Around the World icon" />
+          <span class="subsChannel">Around the World</span>
+        </span>
+      </div>
+      <!-- MORE FROM YOUTUBE -->
+      <div class="categoriesSection">
+        <h3>More from Youtube</h3>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/youtubePremium.png" alt="YouTube Premium icon" />
+          </i>
+          <span>Youtube Premium</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img class="adjustIcon" src="images/bodyIcons/movies.png" alt="Movies icon" />
+          </i>
+          <span>Movies</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/gaming.png" alt="Gaming icon" />
+          </i>
+          <span>Gaming</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/live.png" alt="Live icon" />
+          </i>
+          <span>Live</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img class="adjustIcon" src="images/bodyIcons/learning.png" alt="Learning icon" />
+          </i>
+          <span>Learning</span>
+        </span>
+      </div>
+      <!-- SETTINGS -->
+      <div class="categoriesSection">
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/settings.png" alt="Settings icon" />
+          </i>
+          <span>Settings</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img class="adjustIcon" src="images/bodyIcons/reportHistory.png" alt="Report History icon" />
+          </i>
+          <span>Report History</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img src="images/bodyIcons/help.png" alt="Help icon" />
+          </i>
+          <span>Help</span>
+        </span>
+        <span class="category">
+          <i class="icon">
+            <img class="adjustIcon2" src="images/bodyIcons/sendFeedback.png" alt="Send Feedback icon" />
+          </i>
+          <span>Send feedback</span>
+        </span>
+      </div>
+      <!--LINKS SECTION-->
+      <div class="linksSection">
+        <span class="guideLinks">
+          <a href="#">About</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Press</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Copyright</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Contact us</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Creators</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Advertise</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Developers</a>
+        </span>
+      </div>
+
+      <div class="linksSection">
+        <span class="guideLinks">
+          <a href="#">Terms</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Privacy</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Policy & Safety</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">How Youtube works</a>
+        </span>
+        <span class="guideLinks">
+          <a href="#">Test new features</a>
+        </span>
+        <div id="copyright">
+          <p>© 2021 Google LLC</p>
+        </div>
+      </div>
+    </div>
+
+    <!--"VIDEO THUMBNAILS"-->
+    <div class="videos">
+      <div class="videosGrid">
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/ps2Unboxing.jpg" alt="PS2 Unboxing" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/psFans.jpg" alt="PSFans" />
+            </div>
+            <div class="videoTitle">
+              <h3>PS2 UNBOXING!</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">PSFans</a>
+                <span>2K views • 2 days ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/proudLion.jpg" alt="Lion" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/worldAnimals.jpg" alt="World Animals" />
+            </div>
+            <div class="videoTitle">
+              <h3>The Proud Lion</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">World Animals</a>
+                <span>187K views • 5 days ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/gamingPc.jpg" alt="Gaming PC" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/techTips.jpg" alt="Tech Tips" />
+            </div>
+            <div class="videoTitle">
+              <h3>How to Build a Gaming PC</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">Tech Tips</a>
+                <span>19K views • 6 months ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/guitar.jpg" alt="Acoustic guitar" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/learningMusic.jpg" alt="Learning Music" />
+            </div>
+            <div class="videoTitle">
+              <h3>5 Best Acoustic Guitars for Beginners</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">Learning Music</a>
+                <span>9K views • 4 weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/allWorldCupFinals.jpg" alt="World Cup Finals" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/realFootball.jpg" alt="The Real Football" />
+            </div>
+            <div class="videoTitle">
+              <h3>All World Cup Finals</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">The Real Football</a>
+                <span>233K views • 1 month ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/supercarSounds.jpg" alt="Supercar" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/supercars.jpg" alt="Supercars" />
+            </div>
+            <div class="videoTitle">
+              <h3>BEST OF SUPERCAR SOUNDS</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">Supercars</a>
+                <span>878K views • 9 months ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/ps5Review.jpg" alt="PS5" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/psFans.jpg" alt="PSFans" />
+            </div>
+            <div class="videoTitle">
+              <h3>PS5 Review</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">PSFans</a>
+                <span>17K views • 2 weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/mostBeautifulCities.jpg" alt="Beautiful City" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/aroundTheWorld.jpg" alt="Around the World" />
+            </div>
+            <div class="videoTitle">
+              <h3>THE MOST BEAUTIFUL CITIES</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">Around the World</a>
+                <span>1.1M views • 3 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/orca.jpg" alt="Orca" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/worldAnimals.jpg" alt="World Animals" />
+            </div>
+            <div class="videoTitle">
+              <h3>The Smartest Animals In The World</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">World Animals</a>
+                <span>479K views • 1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/piano.jpg" alt="Piano" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/learningMusic.jpg" alt="Learning Music" />
+            </div>
+            <div class="videoTitle">
+              <h3>10 Steps to Learn How To Play Piano</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">PSFans</a>
+                <span>5K views • 1 week ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/mostBeautifulGoals.jpg" alt="Beautiful Goal" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/realFootball.jpg" alt="The Real Football" />
+            </div>
+            <div class="videoTitle">
+              <h3>The Most Beautiful Goals</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">The Real Football</a>
+                <span>679K views • 7 months ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video">
+          <div class="thumb">
+            <img id="imageThumb" src="images/thumbs/bestheadphones.jpg" alt="Headphone" />
+          </div>
+          <div class="description">
+            <div class="channel">
+              <img id="imageChannel" src="images/channelIcons/techTips.jpg" alt="Tech Tips" />
+            </div>
+            <div class="videoTitle">
+              <h3>The Best Headphones of 2020</h3>
+              <div class="channelViews">
+                <a class="channelLink" href="#">TechTips</a>
+                <span> 321K views • 2 months ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

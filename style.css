@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+
+i {
+  font-style: normal;
+}
+
+/* "HEADER" */
+.searchBar {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px;
+
+  align-items: center;
+
+  height: 55px;
+
+  position: sticky;
+
+  top: 0;
+
+  background: white;
+}
+
+i {
+  padding: 0 7.5px;
+}
+
+.logo {
+  display: flex;
+
+  align-items: center;
+
+  margin-left: 9px;
+}
+
+.logo img {
+  width: 80px;
+
+  margin-left: 15px;
+}
+.icons {
+  display: flex;
+}
+
+.icons p {
+  padding: 0 7.5px;
+}
+
+.search input,
+button {
+  border-radius: 0;
+
+  border: none;
+
+  outline: none;
+
+  height: 100%;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+.search form {
+  border: 1px solid #ddd;
+
+  height: 30px;
+}
+
+.search input {
+  width: 550px;
+
+  padding-left: 15px;
+}
+
+#inputSearchBar::-webkit-input-placeholder {
+  color: #9d9d9d;
+
+  font-size: 16px;
+
+  font-weight: 500;
+}
+
+.search button {
+  width: 70px;
+}
+
+.search button:hover {
+  cursor: pointer;
+
+  background: #e5e5e5;
+}
+
+#searchIcon {
+  width: 13px;
+}
+
+#headerIcons,
+.headerIcons {
+  cursor: pointer;
+}
+
+.headerIcons {
+  width: 18px;
+
+  margin-right: 10px;
+
+  margin-bottom: 5px;
+}
+
+.headerIconCreate {
+  width: 18px;
+
+  margin-right: 15px;
+
+  margin-bottom: 7px;
+}
+
+.logo .headerIcons {
+  width: 18px;
+
+  padding-top: 15px;
+
+  margin-left: 0px;
+}
+
+.headerIconAccount {
+  width: 30px;
+
+  border-radius: 60px;
+
+  margin-right: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* LEFT-MENU */
+.mainBody {
+  height: 100%;
+
+  display: flex;
+}
+
+.categories {
+  width: 240px;
+
+  height: 95%;
+
+  background-color: white;
+
+  color: #606060;
+
+  overflow: hidden;
+
+  position: fixed;
+}
+
+.categories:hover {
+  overflow-y: scroll;
+}
+
+.categories::-webkit-scrollbar {
+  background-color: white;
+
+  width: 8px;
+}
+
+.categories::-webkit-scrollbar-thumb {
+  width: 8px;
+
+  background: rgb(206, 206, 206);
+}
+
+.categoriesSection {
+  display: flex;
+
+  flex-direction: column;
+
+  border-bottom: 1px solid #e5e5e5a8;
+
+  padding: 10px 0 10px 0;
+}
+
+.categoriesSection h3 {
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  margin: 0 25px 10px;
+}
+
+.category {
+  width: 100%;
+
+  display: flex;
+
+  padding: 12.5px 25px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+}
+
+.category:hover {
+  background: #e5e5e5a8;
+}
+
+.category i {
+  margin-right: 25px;
+}
+
+.linksSection {
+  display: inline-block !important;
+
+  padding: 16px 24px 0px;
+}
+
+.guideLinks {
+  font-size: 13px;
+}
+
+.guideLinks a {
+  margin: 0px 8px 0px 0px;
+
+  text-decoration: none;
+
+  color: #606060;
+
+  font-weight: 500;
+}
+
+#copyright {
+  font-size: 13px;
+
+  color: #909090;
+}
+
+.icon {
+  width: 24px;
+
+  height: 24px;
+
+  border-radius: 60%;
+
+  margin-top: 0px;
+}
+
+.subsChannel {
+  padding: 5px 0px 5px 20px;
+}
+
+.adjustIcon {
+  margin-left: 2px;
+}
+
+.adjustIcon2 {
+  margin-left: 1px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* VIDEO-THUMBNAILS */
+.videos {
+  background-color: #f9f9f9;
+
+  height: 100%;
+
+  width: 100%;
+
+  padding: 25px 0px 25px 335px;
+
+  display: flex;
+}
+
+.video {
+  display: inline-block;
+
+  padding: 8px;
+}
+
+#imageThumb {
+  width: 350px;
+
+  height: 220px;
+}
+
+#imageChannel {
+  margin-top: 10px;
+
+  width: 40px;
+
+  height: 40px;
+
+  border-radius: 80%;
+}
+
+.description {
+  display: flex;
+}
+
+.videoTitle h3 {
+  margin-left: 10px;
+
+  margin-top: 10px;
+
+  margin-bottom: 0;
+
+  font-size: 16px;
+
+  font-weight: 500;
+}
+
+.channelViews {
+  display: flex;
+
+  color: #606060;
+
+  flex-direction: column;
+
+  margin-left: 10px;
+
+  margin-top: 5px;
+
+  font-size: 14px;
+}
+
+.channelLink {
+  text-decoration: none;
+
+  color: #606060;
+}
+
+.channelLink:hover {
+  color: black;
+}
